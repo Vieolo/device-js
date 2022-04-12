@@ -5,7 +5,7 @@ Providing information about the browser and the device running it
 to install, add the following to the `dependency` key of the `package.json` file of the project.
 
 ```json
-"@vieolo/device-js": "github:Vieolo/device-js#0.0.1"
+"@vieolo/device-js": "github:Vieolo/device-js#0.1.0"
 ```
 
 ## Usage
