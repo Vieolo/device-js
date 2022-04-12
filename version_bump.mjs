@@ -45,8 +45,8 @@ let readMeNewLines = [];
 // TODO: replace the package name with the actual name from README file
 for (let i = 0; i < readMeLines.length; i++) {
     const line = readMeLines[i];
-    if (line.includes(`"@vieolo/node-template-package": "github:Vieolo`)) {
-        readMeNewLines.push(`"@vieolo/node-template-package": "github:Vieolo/node-template-package#${fv}"`)
+    if (line.includes(`"@vieolo/device-js": "github:Vieolo`)) {
+        readMeNewLines.push(`"@vieolo/device-js": "github:Vieolo/device-js#${fv}"`)
     } else {
         readMeNewLines.push(line);
     }
