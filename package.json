@@ -1,0 +1,27 @@
+{
+  "name": "@vieolo/node-template-package",
+  "version": "0.0.1",
+  "description": "The template to start a new node package for Vieolo",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vieolo/node-package-template.git"
+  },
+  "author": "Vieolo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Vieolo/node-package-template/issues"
+  },
+  "homepage": "https://github.com/Vieolo/node-package-template#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  }
+}
