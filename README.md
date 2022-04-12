@@ -1,11 +1,11 @@
-# Template Package
-The description of the package should be added here
+# Device JS
+Providing information about the browser and the device running it
 
 ## Install
 to install, add the following to the `dependency` key of the `package.json` file of the project.
 
 ```json
-"@vieolo/node-template-package": "github:Vieolo/node-template-package#0.0.1"
+"@vieolo/device-js": "github:Vieolo/device-js#0.0.1"
 ```
 
 ## Usage
