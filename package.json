@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Vieolo/node-package-template.git"
+    "url": "git+ssh://git@github.com/Vieolo/device-js.git"
   },
   "author": "Vieolo",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/Vieolo/node-package-template/issues"
+    "url": "https://github.com/Vieolo/device-js/issues"
   },
-  "homepage": "https://github.com/Vieolo/node-package-template#readme",
+  "homepage": "https://github.com/Vieolo/device-js#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
     "@types/jest": "^27.4.1",
