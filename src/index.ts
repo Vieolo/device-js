@@ -103,4 +103,8 @@ export default class Device {
         else if (ua.includes("Linux")) return DeviceOS.linux;
         else return DeviceOS.unknown;
     }
+
+    static isAnAppleDevice() {
+        return [DeviceOS.ios, DeviceOS.ipados, DeviceOS.macos].includes(Device.os())
+    }
 }
