@@ -105,6 +105,12 @@ export default class Device {
 
     static colorTheme: DeviceColorTheme = window.matchMedia('(prefers-color-scheme: dark)') ? DeviceColorTheme.dark : DeviceColorTheme.light;
 
+    /**
+     * Detects the OS of the user using the User Agent.
+     * Even though the result of this function is accurate in many cases, the result
+     * cannot be guaranteed. Use this function only when necessary.
+     * @returns DeviceOS
+     */
     static os() : DeviceOS {
         let ua = (window.navigator.userAgent.split("(")[1] || "").split(")")[0];
         if (ua.includes("iPhone")) return DeviceOS.ios;
@@ -120,6 +126,12 @@ export default class Device {
         else return DeviceOS.unknown;
     }
 
+    /**
+     * This function is an extension of `os()` function which tells you if the device
+     * you're using is an Apple device (iPhone, iPad, Mac) or not.
+     * The distiction between a MacBook or iMac can only be made by size
+     * @returns boolean
+     */
     static isAnAppleDevice() {
         return [DeviceOS.ios, DeviceOS.ipados, DeviceOS.macos].includes(Device.os())
     }
