@@ -1,6 +1,6 @@
 {
   "name": "@vieolo/device-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Providing information about the browser and the device running it",
   "main": "dist/index.js",
   "scripts": {
@@ -22,6 +22,8 @@
     "@types/jest": "^27.4.1",
     "babel-jest": "^27.5.1",
     "jest": "^27.5.1",
-    "ts-jest": "^27.1.4"
+    "ts-jest": "^27.1.4",
+    "typedoc": "^0.22.15",
+    "typedoc-plugin-markdown": "^3.12.0"
   }
 }
