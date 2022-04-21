@@ -1,3 +1,5 @@
+@vieolo/device-js / [Exports](modules.md)
+
 # Device JS
 Providing information about the browser and the device running it
 
