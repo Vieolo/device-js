@@ -36,25 +36,6 @@ packageJSON.version = fv;
 fs.writeFileSync('./package.json', JSON.stringify(packageJSON, null, 2));
 
 
-// Updating the ReadMe file
-let readMe = fs.readFileSync('./README.md').toString();
-let readMeLines = readMe.split('\n');
-/** @type {string[]} */
-let readMeNewLines = [];
-
-// TODO: replace the package name with the actual name from README file
-for (let i = 0; i < readMeLines.length; i++) {
-    const line = readMeLines[i];
-    if (line.includes(`"@vieolo/device-js": "github:Vieolo`)) {
-        readMeNewLines.push(`"@vieolo/device-js": "github:Vieolo/device-js#${fv}"`)
-    } else {
-        readMeNewLines.push(line);
-    }
-}
-
-fs.writeFileSync('./README.md', readMeNewLines.join('\n'));
-
-
 // Adding lines to the Change Log
 let changelog = fs.readFileSync('./changelog.md').toString();
 let changeLogLines = changelog.split('\n').slice(1);
@@ -72,6 +53,16 @@ changeLogLines.unshift(...[
     "- (Optional) breaking changes in this version"
 ])
 fs.writeFileSync('./changelog.md', changeLogLines.join('\n'));
+
+
+// Generating the documentations
+console.log("Generating the documentations in the /docs folder")
+try {
+    execSync('npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts');
+    console.log("Documentation generated")
+} catch (error) {
+    console.log(error);
+}
 
 
 
