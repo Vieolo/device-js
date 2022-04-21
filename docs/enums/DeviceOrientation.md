@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[index.ts:31](https://github.com/Vieolo/device-js/blob/e477922/src/index.ts#L31)
+[index.ts:31](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L31)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[index.ts:32](https://github.com/Vieolo/device-js/blob/e477922/src/index.ts#L32)
+[index.ts:32](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L32)

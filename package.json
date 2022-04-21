@@ -1,6 +1,6 @@
 {
   "name": "@vieolo/device-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Providing information about the browser and the device running it",
   "main": "dist/index.js",
   "scripts": {
