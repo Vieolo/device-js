@@ -24,7 +24,7 @@ The distiction between an Android mobile and tablet is made only based on their 
 
 #### Defined in
 
-[index.ts:45](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L45)
+[index.ts:45](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L45)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[index.ts:42](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L42)
+[index.ts:42](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L42)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[index.ts:43](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L43)
+[index.ts:43](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L43)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[index.ts:47](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L47)
+[index.ts:47](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L47)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[index.ts:41](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L41)
+[index.ts:41](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L41)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[index.ts:48](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L48)
+[index.ts:48](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L48)
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[index.ts:46](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L46)
+[index.ts:46](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L46)

@@ -1,6 +1,6 @@
 {
   "name": "@vieolo/device-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Providing information about the browser and the device running it",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,11 @@
   },
   "author": "Vieolo",
   "license": "MIT",
-  "keywords": ["device", "browser", "client"],
+  "keywords": [
+    "device",
+    "browser",
+    "client"
+  ],
   "bugs": {
     "url": "https://github.com/Vieolo/device-js/issues"
   },
