@@ -12,7 +12,8 @@
     "url": "git+ssh://git@github.com/Vieolo/device-js.git"
   },
   "author": "Vieolo",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "keywords": ["device", "browser", "client"],
   "bugs": {
     "url": "https://github.com/Vieolo/device-js/issues"
   },
