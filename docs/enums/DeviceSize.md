@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[index.ts:27](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L27)
+[index.ts:27](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L27)
 
 ___
 
@@ -35,7 +35,7 @@ The distinction between the 13 inch laptop and tablets are their pointer type
 
 #### Defined in
 
-[index.ts:25](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L25)
+[index.ts:25](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L25)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[index.ts:26](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L26)
+[index.ts:26](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L26)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[index.ts:19](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L19)
+[index.ts:19](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L19)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[index.ts:18](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L18)
+[index.ts:18](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L18)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[index.ts:20](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L20)
+[index.ts:20](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L20)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[index.ts:21](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L21)
+[index.ts:21](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L21)
 
 ___
 
@@ -97,4 +97,4 @@ The distinction between the 13 inch laptop and tablets are their pointer type
 
 #### Defined in
 
-[index.ts:23](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L23)
+[index.ts:23](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L23)

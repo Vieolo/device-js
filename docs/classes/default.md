@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[index.ts:106](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L106)
+[index.ts:106](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L106)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[index.ts:53](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L53)
+[index.ts:53](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L53)
 
 ___
 
@@ -70,7 +70,7 @@ The inner width of the device
 
 #### Defined in
 
-[index.ts:69](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L69)
+[index.ts:69](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L69)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[index.ts:73](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L73)
+[index.ts:73](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L73)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[index.ts:72](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L72)
+[index.ts:72](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L72)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[index.ts:71](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L71)
+[index.ts:71](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L71)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[index.ts:55](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L55)
+[index.ts:55](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L55)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[index.ts:54](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L54)
+[index.ts:54](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L54)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[index.ts:62](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L62)
+[index.ts:62](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L62)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[index.ts:63](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L63)
+[index.ts:63](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L63)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[index.ts:104](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L104)
+[index.ts:104](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L104)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[index.ts:74](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L74)
+[index.ts:74](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L74)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[index.ts:58](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L58)
+[index.ts:58](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L58)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[index.ts:57](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L57)
+[index.ts:57](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L57)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[index.ts:56](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L56)
+[index.ts:56](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L56)
 
 ___
 
@@ -202,7 +202,7 @@ The inner width of the device
 
 #### Defined in
 
-[index.ts:66](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L66)
+[index.ts:66](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L66)
 
 ## Methods
 
@@ -222,7 +222,7 @@ boolean
 
 #### Defined in
 
-[index.ts:135](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L135)
+[index.ts:135](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L135)
 
 ___
 
@@ -242,7 +242,7 @@ DeviceOS
 
 #### Defined in
 
-[index.ts:114](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L114)
+[index.ts:114](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L114)
 
 ___
 
@@ -256,7 +256,7 @@ ___
 
 #### Defined in
 
-[index.ts:91](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L91)
+[index.ts:91](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L91)
 
 ___
 
@@ -275,4 +275,4 @@ DeviceSizeCategory
 
 #### Defined in
 
-[index.ts:81](https://github.com/Vieolo/device-js/blob/4b0f06e/src/index.ts#L81)
+[index.ts:81](https://github.com/Vieolo/device-js/blob/ded6b89/src/index.ts#L81)
