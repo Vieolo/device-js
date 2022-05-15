@@ -12,7 +12,7 @@
     "url": "git+ssh://git@github.com/Vieolo/device-js.git"
   },
   "author": "Vieolo",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Vieolo/device-js/issues"
   },
