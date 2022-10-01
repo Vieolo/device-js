@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.3 (2022-10-01)
+- Added the `Browser` utility class
+
 ## 0.1.2 (2022-05-16)
 - Fixed the License of package
 
