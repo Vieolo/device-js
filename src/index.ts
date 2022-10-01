@@ -7,8 +7,15 @@ import Device, {
     DeviceSizeCategory as DeviceSizeCategoryTemp
 } from './device'
 
+import Browser, {
+    BrowserHistoryStateChange as BrowserHistoryStateChangeTemp
+} from './browser';
+
 
 export default Device;
+export {
+    Browser
+};
 
 export type DeviceColorTheme = DeviceColorThemeTemp;
 export type DeviceOS = DeviceOSTemp;
@@ -16,3 +23,4 @@ export type DeviceOrientation = DeviceOrientationTemp;
 export type DevicePointer = DevicePointerTemp;
 export type DeviceSize = DeviceSizeTemp;
 export type DeviceSizeCategory = DeviceSizeCategoryTemp;
+export type BrowserHistoryStateChange = BrowserHistoryStateChangeTemp;
