@@ -1,4 +1,4 @@
-import Device from './device';
+import Device, { DeviceColorTheme, DeviceOS, DeviceOrientation, DevicePointer, DeviceSize, DeviceSizeCategory } from './device';
 import Browser from './browser';
 export default Device;
-export { Browser };
+export { Browser, DeviceColorTheme, DeviceOS, DeviceOrientation, DevicePointer, DeviceSize, DeviceSizeCategory, };

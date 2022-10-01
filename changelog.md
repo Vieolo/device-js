@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.4 (2022-10-01)
+- Fixed the export of enums
+
 ## 0.1.3 (2022-10-01)
 - Added the `Browser` utility class
 

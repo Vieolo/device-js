@@ -44,11 +44,11 @@
 
 ### colorTheme
 
-▪ `Static` **colorTheme**: `DeviceColorTheme`
+▪ `Static` **colorTheme**: [`DeviceColorTheme`](../enums/DeviceColorTheme.md)
 
 #### Defined in
 
-[device.ts:106](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L106)
+[device.ts:106](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L106)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[device.ts:53](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L53)
+[device.ts:53](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L53)
 
 ___
 
@@ -70,7 +70,7 @@ The inner width of the device
 
 #### Defined in
 
-[device.ts:69](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L69)
+[device.ts:69](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L69)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[device.ts:73](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L73)
+[device.ts:73](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L73)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[device.ts:72](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L72)
+[device.ts:72](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L72)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[device.ts:71](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L71)
+[device.ts:71](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L71)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[device.ts:55](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L55)
+[device.ts:55](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L55)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[device.ts:54](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L54)
+[device.ts:54](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L54)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[device.ts:62](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L62)
+[device.ts:62](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L62)
 
 ___
 
@@ -140,27 +140,27 @@ ___
 
 #### Defined in
 
-[device.ts:63](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L63)
+[device.ts:63](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L63)
 
 ___
 
 ### orientation
 
-▪ `Static` **orientation**: `DeviceOrientation`
+▪ `Static` **orientation**: [`DeviceOrientation`](../enums/DeviceOrientation.md)
 
 #### Defined in
 
-[device.ts:104](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L104)
+[device.ts:104](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L104)
 
 ___
 
 ### pointerType
 
-▪ `Static` **pointerType**: `DevicePointer`
+▪ `Static` **pointerType**: [`DevicePointer`](../enums/DevicePointer.md)
 
 #### Defined in
 
-[device.ts:74](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L74)
+[device.ts:74](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L74)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[device.ts:58](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L58)
+[device.ts:58](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L58)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[device.ts:57](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L57)
+[device.ts:57](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L57)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[device.ts:56](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L56)
+[device.ts:56](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L56)
 
 ___
 
@@ -202,7 +202,7 @@ The inner width of the device
 
 #### Defined in
 
-[device.ts:66](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L66)
+[device.ts:66](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L66)
 
 ## Methods
 
@@ -222,13 +222,13 @@ boolean
 
 #### Defined in
 
-[device.ts:135](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L135)
+[device.ts:135](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L135)
 
 ___
 
 ### os
 
-▸ `Static` **os**(): `DeviceOS`
+▸ `Static` **os**(): [`DeviceOS`](../enums/DeviceOS.md)
 
 Detects the OS of the user using the User Agent.
 Even though the result of this function is accurate in many cases, the result
@@ -236,43 +236,43 @@ cannot be guaranteed. Use this function only when necessary.
 
 #### Returns
 
-`DeviceOS`
+[`DeviceOS`](../enums/DeviceOS.md)
 
 DeviceOS
 
 #### Defined in
 
-[device.ts:114](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L114)
+[device.ts:114](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L114)
 
 ___
 
 ### size
 
-▸ `Static` **size**(): `DeviceSize`
+▸ `Static` **size**(): [`DeviceSize`](../enums/DeviceSize.md)
 
 #### Returns
 
-`DeviceSize`
+[`DeviceSize`](../enums/DeviceSize.md)
 
 #### Defined in
 
-[device.ts:91](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L91)
+[device.ts:91](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L91)
 
 ___
 
 ### sizeCategory
 
-▸ `Static` **sizeCategory**(): `DeviceSizeCategory`
+▸ `Static` **sizeCategory**(): [`DeviceSizeCategory`](../enums/DeviceSizeCategory.md)
 
 returns the size category of the device
 As an example, both a 7 inches and 13 inch tablets are considered to be tablets
 
 #### Returns
 
-`DeviceSizeCategory`
+[`DeviceSizeCategory`](../enums/DeviceSizeCategory.md)
 
 DeviceSizeCategory
 
 #### Defined in
 
-[device.ts:81](https://github.com/Vieolo/device-js/blob/8374194/src/device.ts#L81)
+[device.ts:81](https://github.com/Vieolo/device-js/blob/bb5161a/src/device.ts#L81)

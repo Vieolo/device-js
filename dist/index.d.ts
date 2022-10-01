@@ -1,11 +1,5 @@
-import Device, { DeviceColorTheme as DeviceColorThemeTemp, DeviceOS as DeviceOSTemp, DeviceOrientation as DeviceOrientationTemp, DevicePointer as DevicePointerTemp, DeviceSize as DeviceSizeTemp, DeviceSizeCategory as DeviceSizeCategoryTemp } from './device';
+import Device, { DeviceColorTheme, DeviceOS, DeviceOrientation, DevicePointer, DeviceSize, DeviceSizeCategory } from './device';
 import Browser, { BrowserHistoryStateChange as BrowserHistoryStateChangeTemp } from './browser';
 export default Device;
-export { Browser };
-export declare type DeviceColorTheme = DeviceColorThemeTemp;
-export declare type DeviceOS = DeviceOSTemp;
-export declare type DeviceOrientation = DeviceOrientationTemp;
-export declare type DevicePointer = DevicePointerTemp;
-export declare type DeviceSize = DeviceSizeTemp;
-export declare type DeviceSizeCategory = DeviceSizeCategoryTemp;
+export { Browser, DeviceColorTheme, DeviceOS, DeviceOrientation, DevicePointer, DeviceSize, DeviceSizeCategory, };
 export declare type BrowserHistoryStateChange = BrowserHistoryStateChangeTemp;
