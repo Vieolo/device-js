@@ -1,6 +1,6 @@
-export type BrowserHistoryStateChange = 
+export type BrowserHistoryStateChange =
     /** Replacing the browser's location does not affect the history */
-    "replace" | 
+    "replace" |
     /** Pushing a url to the browser's location will add to the history stack. If the user presses the browser's back button, the browser goes back to the previous url */
     "push"
 
@@ -9,12 +9,12 @@ export type BrowserHistoryStateChange =
  * Providing utility functions for the browser
  */
 export default class Browser {
-    
+
     /**
      * Converts the browser's location to a URL object
      * @returns URL
      */
-    static url() {        
+    static url() {
         return new URL(window.location.href)
     }
 
@@ -41,8 +41,8 @@ export default class Browser {
     /**
      * Converts the search params into an object
      */
-    static getAllSearchParams() : {[key: string]: string} {
-        let res: {[key: string]: string} = {}
+    static getAllSearchParams(): { [key: string]: string } {
+        let res: { [key: string]: string } = {}
         Browser.url().searchParams.forEach((v, k, parent) => {
             res[k] = v
         })
@@ -56,7 +56,7 @@ export default class Browser {
      * @param stateChange Whether to replace the url or push the new url onto the history stack
      */
     static setSearchParam(key: string, value: string | number, stateChange?: BrowserHistoryStateChange) {
-        let url = Browser.url() 
+        let url = Browser.url()
         let sp = url.searchParams
         sp.set(key, value.toString());
         Browser.changeHistoryState(url.toString(), stateChange)
@@ -67,8 +67,8 @@ export default class Browser {
      * @param data The object of data to be added to url's search params. All the values will be converted to string
      * @param stateChange Whether to replace the url or push the new url onto the history stack
      */
-    static setBulkSearchParam(data: {[key: string]: string | number}, stateChange?: BrowserHistoryStateChange) {
-        let url = Browser.url() 
+    static setBulkSearchParam(data: { [key: string]: string | number }, stateChange?: BrowserHistoryStateChange) {
+        let url = Browser.url()
         let sp = url.searchParams
         Object.entries(data).forEach(e => {
             sp.set(e[0], e[1].toString())
@@ -82,7 +82,7 @@ export default class Browser {
      * @param stateChange Whether to replace the url or push the new url onto the history stack
      */
     static deleteSearchParam(key: string, stateChange?: BrowserHistoryStateChange) {
-        let url = Browser.url() 
+        let url = Browser.url()
         let sp = url.searchParams
         sp.delete(key);
         Browser.changeHistoryState(url.toString(), stateChange)
@@ -94,7 +94,7 @@ export default class Browser {
      */
     static deleteAllSearchParam(stateChange?: BrowserHistoryStateChange) {
         Browser.changeHistoryState(window.location.href.split("?")[0], stateChange)
-    }    
+    }
 
     /**
      * Either replace the location or push the given url to the history stack
@@ -123,5 +123,43 @@ export default class Browser {
      */
     static replaceHistoryState(url: string) {
         window.history.replaceState(null, "", url.toString())
+    }
+
+
+    // Cookie Utils -------
+    
+    /**
+     * Sets a cookie. To clear a cookie, pass the expiry as 0
+     * @param name The name of the cookie
+     * @param value The value of the cookie
+     * @param expiry The validity of the cookie in ms
+     */
+    static setCookie(name: string, value: string, expiry: number) {
+        var expires = "";
+        var date = new Date();
+        date.setTime(date.getTime() + expiry);
+        expires = "; expires=" + date.toUTCString();
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    /**
+     * Retrieves all the cookies and restructure them into an object     
+     */
+    static getAllCookies(): { [key: string]: string } {
+        let cookiesArray = document.cookie.split(";");
+        let cookies: { [key: string]: string } = {};
+        for (let i = 0; i < cookiesArray.length; i++) {
+            const c = cookiesArray[i].split("=");
+            cookies[c[0].trim()] = c[1];
+        }
+        return cookies;
+    }
+
+    /**
+     * Attempts to get a specific cookie. If not present, `undefined` is returned
+     * @param name The key of the cookie to be retrieved
+     */
+    static getSingleCookie(name: string): string | undefined {
+        return Browser.getAllCookies()[name]
     }
 }
