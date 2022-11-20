@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.5 (2022-11-20)
+- Added cookie utility functions to `Browser`
+
 ## 0.1.4 (2022-10-01)
 - Fixed the export of enums
 
