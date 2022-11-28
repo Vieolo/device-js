@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.6 (2022-11-28)
+- Adjusted the access of `window` for NextJS
+
 ## 0.1.5 (2022-11-20)
 - Added cookie utility functions to `Browser`
 

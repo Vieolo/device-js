@@ -20,7 +20,7 @@ The device has a touch screen but also uses mouse and keyboard
 
 #### Defined in
 
-[device.ts:7](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L7)
+[device.ts:7](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L7)
 
 ___
 
@@ -32,7 +32,7 @@ The device only uses mouse and keyboard as the input method
 
 #### Defined in
 
-[device.ts:5](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L5)
+[device.ts:5](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L5)
 
 ___
 
@@ -44,4 +44,4 @@ The device only uses touch as the input method
 
 #### Defined in
 
-[device.ts:3](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L3)
+[device.ts:3](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L3)

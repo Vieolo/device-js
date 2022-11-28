@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[device.ts:14](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L14)
+[device.ts:14](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L14)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[device.ts:13](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L13)
+[device.ts:13](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L13)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[device.ts:11](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L11)
+[device.ts:11](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L11)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[device.ts:12](https://github.com/Vieolo/device-js/blob/c466232/src/device.ts#L12)
+[device.ts:12](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L12)
