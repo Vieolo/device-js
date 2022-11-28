@@ -15,6 +15,7 @@ export default class Browser {
      * @returns URL
      */
     static url() {
+        if (typeof window === 'undefined') return new URL("")
         return new URL(window.location.href)
     }
 
@@ -23,6 +24,7 @@ export default class Browser {
      * @param target The key to be searched for in the URL
      */
     static hasSearchParam(target: string) {
+        if (typeof window === 'undefined') return false
         return Browser.url().searchParams.has(target)
     }
 
@@ -93,7 +95,7 @@ export default class Browser {
      * @param stateChange Whether to replace the url or push the new url onto the history stack
      */
     static deleteAllSearchParam(stateChange?: BrowserHistoryStateChange) {
-        Browser.changeHistoryState(window.location.href.split("?")[0], stateChange)
+        if (typeof window !== 'undefined') Browser.changeHistoryState(window.location.href.split("?")[0], stateChange)
     }
 
     /**
@@ -114,7 +116,7 @@ export default class Browser {
      * @param url The new URL
      */
     static pushHistoryState(url: string) {
-        window.history.pushState(null, "", url.toString())
+        if (typeof window !== 'undefined') window.history.pushState(null, "", url.toString())
     }
 
     /**
@@ -122,7 +124,7 @@ export default class Browser {
      * @param url The new URL
      */
     static replaceHistoryState(url: string) {
-        window.history.replaceState(null, "", url.toString())
+        if (typeof window !== 'undefined') window.history.replaceState(null, "", url.toString())
     }
 
 

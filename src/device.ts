@@ -63,14 +63,14 @@ export default class Device {
     static mobileSmallBreakPoint = 375;
     
     /** The inner width of the device */
-    static width = window.innerWidth;
+    static width = (typeof window !== 'undefined' ? window : {innerWidth: 0}).innerWidth;
     
     /** The inner width of the device */
-    static height = window.innerHeight;
+    static height = (typeof window !== 'undefined' ? window : {innerHeight: 0}).innerHeight;
 
-    static isTouchOnlyDevice = "ontouchstart" in window && window.matchMedia("(pointer: coarse)").matches && !window.matchMedia("(pointer: fine)").matches;
-    static isMouseOnlyDevice = !window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(pointer: fine)").matches;
-    static isBothTouchAndMouse = window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(pointer: fine)").matches;
+    static isTouchOnlyDevice = typeof window !== 'undefined' && "ontouchstart" in window && window.matchMedia("(pointer: coarse)").matches && !window.matchMedia("(pointer: fine)").matches;
+    static isMouseOnlyDevice = typeof window !== 'undefined'&& !window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(pointer: fine)").matches;
+    static isBothTouchAndMouse = typeof window !== 'undefined' && window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(pointer: fine)").matches;
     static pointerType: DevicePointer = Device.isTouchOnlyDevice ? DevicePointer.touch : Device.isMouseOnlyDevice ? DevicePointer.mouse : DevicePointer.hybrid;
 
     /**
@@ -101,9 +101,9 @@ export default class Device {
         else return DeviceSize.desktop;
     }
 
-    static orientation : DeviceOrientation = window.matchMedia("(orientation: portrait)").matches ? DeviceOrientation.portrait : DeviceOrientation.landscape;
+    static orientation : DeviceOrientation = (typeof window !== 'undefined' && window.matchMedia("(orientation: portrait)").matches) ? DeviceOrientation.portrait : DeviceOrientation.landscape;
 
-    static colorTheme: DeviceColorTheme = window.matchMedia('(prefers-color-scheme: dark)') ? DeviceColorTheme.dark : DeviceColorTheme.light;
+    static colorTheme: DeviceColorTheme = (typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)')) ? DeviceColorTheme.dark : DeviceColorTheme.light;
 
     /**
      * Detects the OS of the user using the User Agent.
@@ -112,6 +112,8 @@ export default class Device {
      * @returns DeviceOS
      */
     static os() : DeviceOS {
+        if (typeof window === 'undefined') return DeviceOS.unknown;
+        
         let ua = (window.navigator.userAgent.split("(")[1] || "").split(")")[0];
         if (ua.includes("iPhone")) return DeviceOS.ios;
         else if (ua.includes("iPad")) return DeviceOS.ipados;
