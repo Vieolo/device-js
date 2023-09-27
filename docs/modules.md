@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[index.ts:26](https://github.com/Vieolo/device-js/blob/ffdd98c/src/index.ts#L26)
+[index.ts:26](https://github.com/Vieolo/device-js/blob/3951077/src/index.ts#L26)

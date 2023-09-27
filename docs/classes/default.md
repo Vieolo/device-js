@@ -12,7 +12,6 @@
 
 - [colorTheme](default.md#colortheme)
 - [desktopBreakPoint](default.md#desktopbreakpoint)
-- [height](default.md#height)
 - [isBothTouchAndMouse](default.md#isbothtouchandmouse)
 - [isMouseOnlyDevice](default.md#ismouseonlydevice)
 - [isTouchOnlyDevice](default.md#istouchonlydevice)
@@ -25,14 +24,15 @@
 - [tablet10LandscapeBreakPoint](default.md#tablet10landscapebreakpoint)
 - [tablet11LandscapeBreakPoint](default.md#tablet11landscapebreakpoint)
 - [tablet13LandscapeBreakPoint](default.md#tablet13landscapebreakpoint)
-- [width](default.md#width)
 
 ### Methods
 
+- [height](default.md#height)
 - [isAnAppleDevice](default.md#isanappledevice)
 - [os](default.md#os)
 - [size](default.md#size)
 - [sizeCategory](default.md#sizecategory)
+- [width](default.md#width)
 
 ## Constructors
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[device.ts:106](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L106)
+[device.ts:112](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L112)
 
 ___
 
@@ -58,19 +58,7 @@ ___
 
 #### Defined in
 
-[device.ts:53](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L53)
-
-___
-
-### height
-
-▪ `Static` **height**: `number`
-
-The inner width of the device
-
-#### Defined in
-
-[device.ts:69](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L69)
+[device.ts:53](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L53)
 
 ___
 
@@ -80,7 +68,7 @@ ___
 
 #### Defined in
 
-[device.ts:73](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L73)
+[device.ts:77](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L77)
 
 ___
 
@@ -90,7 +78,7 @@ ___
 
 #### Defined in
 
-[device.ts:72](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L72)
+[device.ts:76](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L76)
 
 ___
 
@@ -100,7 +88,7 @@ ___
 
 #### Defined in
 
-[device.ts:71](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L71)
+[device.ts:75](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L75)
 
 ___
 
@@ -110,7 +98,7 @@ ___
 
 #### Defined in
 
-[device.ts:55](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L55)
+[device.ts:55](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L55)
 
 ___
 
@@ -120,7 +108,7 @@ ___
 
 #### Defined in
 
-[device.ts:54](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L54)
+[device.ts:54](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L54)
 
 ___
 
@@ -130,7 +118,7 @@ ___
 
 #### Defined in
 
-[device.ts:62](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L62)
+[device.ts:62](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L62)
 
 ___
 
@@ -140,7 +128,7 @@ ___
 
 #### Defined in
 
-[device.ts:63](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L63)
+[device.ts:63](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L63)
 
 ___
 
@@ -150,7 +138,7 @@ ___
 
 #### Defined in
 
-[device.ts:104](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L104)
+[device.ts:110](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L110)
 
 ___
 
@@ -160,7 +148,7 @@ ___
 
 #### Defined in
 
-[device.ts:74](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L74)
+[device.ts:78](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L78)
 
 ___
 
@@ -170,7 +158,7 @@ ___
 
 #### Defined in
 
-[device.ts:58](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L58)
+[device.ts:58](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L58)
 
 ___
 
@@ -180,7 +168,7 @@ ___
 
 #### Defined in
 
-[device.ts:57](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L57)
+[device.ts:57](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L57)
 
 ___
 
@@ -190,21 +178,25 @@ ___
 
 #### Defined in
 
-[device.ts:56](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L56)
+[device.ts:56](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L56)
 
-___
+## Methods
 
-### width
+### height
 
-▪ `Static` **width**: `number`
+▸ `Static` **height**(): `number`
 
 The inner width of the device
 
+#### Returns
+
+`number`
+
 #### Defined in
 
-[device.ts:66](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L66)
+[device.ts:71](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L71)
 
-## Methods
+___
 
 ### isAnAppleDevice
 
@@ -222,7 +214,7 @@ boolean
 
 #### Defined in
 
-[device.ts:137](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L137)
+[device.ts:143](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L143)
 
 ___
 
@@ -242,7 +234,7 @@ DeviceOS
 
 #### Defined in
 
-[device.ts:114](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L114)
+[device.ts:120](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L120)
 
 ___
 
@@ -256,7 +248,7 @@ ___
 
 #### Defined in
 
-[device.ts:91](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L91)
+[device.ts:96](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L96)
 
 ___
 
@@ -275,4 +267,20 @@ DeviceSizeCategory
 
 #### Defined in
 
-[device.ts:81](https://github.com/Vieolo/device-js/blob/ffdd98c/src/device.ts#L81)
+[device.ts:85](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L85)
+
+___
+
+### width
+
+▸ `Static` **width**(): `number`
+
+The inner width of the device
+
+#### Returns
+
+`number`
+
+#### Defined in
+
+[device.ts:66](https://github.com/Vieolo/device-js/blob/3951077/src/device.ts#L66)

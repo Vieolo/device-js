@@ -63,10 +63,14 @@ export default class Device {
     static mobileSmallBreakPoint = 375;
     
     /** The inner width of the device */
-    static width = (typeof window !== 'undefined' ? window : {innerWidth: 0}).innerWidth;
+    static width(): number {
+        return (typeof window !== 'undefined' ? window : {innerWidth: 0}).innerWidth
+    }
     
     /** The inner width of the device */
-    static height = (typeof window !== 'undefined' ? window : {innerHeight: 0}).innerHeight;
+    static height(): number {
+        return (typeof window !== 'undefined' ? window : {innerHeight: 0}).innerHeight
+    }
 
     static isTouchOnlyDevice = typeof window !== 'undefined' && "ontouchstart" in window && window.matchMedia("(pointer: coarse)").matches && !window.matchMedia("(pointer: fine)").matches;
     static isMouseOnlyDevice = typeof window !== 'undefined'&& !window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(pointer: fine)").matches;
@@ -79,9 +83,10 @@ export default class Device {
      * @returns DeviceSizeCategory
      */
     static sizeCategory() : DeviceSizeCategory {
-        if (Device.width <= Device.mobileBreakPoint) return DeviceSizeCategory.mobile;
-        else if (Device.width <= Device.tablet11LandscapeBreakPoint) return DeviceSizeCategory.tablet;
-        else if (Device.width <= Device.laptop15BreakPoint) {
+        let width = Device.width();
+        if (width <= Device.mobileBreakPoint) return DeviceSizeCategory.mobile;
+        else if (width <= Device.tablet11LandscapeBreakPoint) return DeviceSizeCategory.tablet;
+        else if (width <= Device.laptop15BreakPoint) {
             if (Device.isTouchOnlyDevice) return DeviceSizeCategory.tablet
             else return DeviceSizeCategory.laptop;
         }
@@ -89,15 +94,16 @@ export default class Device {
     }
 
     static size() : DeviceSize {
-        if (Device.width <= Device.mobileSmallBreakPoint) return DeviceSize.smallMobile;
-        else if (Device.width <= Device.mobileBreakPoint) return DeviceSize.mobile;
-        else if (Device.width <= Device.tablet10LandscapeBreakPoint) return DeviceSize.tablet10;
-        else if (Device.width <= Device.tablet11LandscapeBreakPoint) return DeviceSize.tablet11;
-        else if (Device.width <= Device.tablet13LandscapeBreakPoint) {
+        let width = Device.width();
+        if (width <= Device.mobileSmallBreakPoint) return DeviceSize.smallMobile;
+        else if (width <= Device.mobileBreakPoint) return DeviceSize.mobile;
+        else if (width <= Device.tablet10LandscapeBreakPoint) return DeviceSize.tablet10;
+        else if (width <= Device.tablet11LandscapeBreakPoint) return DeviceSize.tablet11;
+        else if (width <= Device.tablet13LandscapeBreakPoint) {
             if (Device.isTouchOnlyDevice) return DeviceSize.tablet13;
             else return DeviceSize.laptop13
         }
-        else if (Device.width <= Device.laptop15BreakPoint) return DeviceSize.laptop15;
+        else if (width <= Device.laptop15BreakPoint) return DeviceSize.laptop15;
         else return DeviceSize.desktop;
     }
 

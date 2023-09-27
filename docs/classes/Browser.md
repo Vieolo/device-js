@@ -54,7 +54,7 @@ Either replace the location or push the given url to the history stack
 
 #### Defined in
 
-[browser.ts:106](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L106)
+[browser.ts:106](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L106)
 
 ___
 
@@ -76,7 +76,7 @@ Deletes all of the search params
 
 #### Defined in
 
-[browser.ts:97](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L97)
+[browser.ts:97](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L97)
 
 ___
 
@@ -99,7 +99,7 @@ Deletes a key-value pair from the search param
 
 #### Defined in
 
-[browser.ts:86](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L86)
+[browser.ts:86](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L86)
 
 ___
 
@@ -115,7 +115,7 @@ Retrieves all the cookies and restructure them into an object
 
 #### Defined in
 
-[browser.ts:150](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L150)
+[browser.ts:150](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L150)
 
 ___
 
@@ -131,7 +131,7 @@ Converts the search params into an object
 
 #### Defined in
 
-[browser.ts:46](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L46)
+[browser.ts:46](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L46)
 
 ___
 
@@ -154,7 +154,7 @@ Retrieves the value of a key from the search params.
 
 #### Defined in
 
-[browser.ts:36](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L36)
+[browser.ts:36](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L36)
 
 ___
 
@@ -176,7 +176,7 @@ Attempts to get a specific cookie. If not present, `undefined` is returned
 
 #### Defined in
 
-[browser.ts:164](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L164)
+[browser.ts:164](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L164)
 
 ___
 
@@ -198,7 +198,7 @@ Checks whether the browser's search params has the given key or not
 
 #### Defined in
 
-[browser.ts:26](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L26)
+[browser.ts:26](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L26)
 
 ___
 
@@ -220,7 +220,7 @@ Pushes the new URL to the browser's history stack.
 
 #### Defined in
 
-[browser.ts:118](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L118)
+[browser.ts:118](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L118)
 
 ___
 
@@ -242,7 +242,7 @@ Replaces the browser's location with the given url
 
 #### Defined in
 
-[browser.ts:126](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L126)
+[browser.ts:126](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L126)
 
 ___
 
@@ -265,7 +265,7 @@ Sets multiple key-value pairs to the search param
 
 #### Defined in
 
-[browser.ts:72](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L72)
+[browser.ts:72](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L72)
 
 ___
 
@@ -289,7 +289,7 @@ Sets a cookie. To clear a cookie, pass the expiry as 0
 
 #### Defined in
 
-[browser.ts:139](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L139)
+[browser.ts:139](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L139)
 
 ___
 
@@ -313,7 +313,7 @@ Sets a new seach param key-value pair
 
 #### Defined in
 
-[browser.ts:60](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L60)
+[browser.ts:60](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L60)
 
 ___
 
@@ -331,4 +331,4 @@ URL
 
 #### Defined in
 
-[browser.ts:17](https://github.com/Vieolo/device-js/blob/ffdd98c/src/browser.ts#L17)
+[browser.ts:17](https://github.com/Vieolo/device-js/blob/3951077/src/browser.ts#L17)
